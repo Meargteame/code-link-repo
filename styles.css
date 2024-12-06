@@ -1,0 +1,97 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4; /* Light background for the whole page */
+    color: #333; /* Default text color */
+}
+
+/* Navbar */
+.navbar {
+    background-color: #007bff;
+}
+
+.navbar a {
+    color: white !important;
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(to right, #007bff, #6c63ff); /* Gradient background */
+    color: white; /* Text color */
+    padding: 100px 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    flex-direction: column; /* Stack text and buttons vertically */
+}
+
+.hero h1 {
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+
+.hero p {
+    font-size: 1.3rem;
+    margin-top: 20px;
+}
+
+.buttons {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    margin-top: 20px; /* Add spacing between the text and buttons */
+}
+
+.btn {
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    text-decoration: none;
+    border-radius: 5px;
+    color: white;
+    transition: background-color 0.3s;
+}
+
+.btn-telegram {
+    background-color: #0088cc;
+}
+
+.btn-telegram:hover {
+    background-color: #006f8b;
+}
+
+.btn-slack {
+    background-color: #4a154b;
+}
+
+.btn-slack:hover {
+    background-color: #3c0d3b;
+}
+
+/* Footer */
+.footer {
+    background-color: #343a40;
+    color: white;
+    padding: 30px 20px;
+}
+
+.footer a {
+    color: #f8f9fa;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+/* Technologies Section */
+.technologies img {
+    width: 60px;
+    margin: 10px;
+}
+
+/* Rules Section */
+.rules li {
+    margin-bottom: 10px;
+}
