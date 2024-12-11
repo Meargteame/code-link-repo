@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign Up Button</title>
+  <style>
+    /* Basic styling for the button */
+    .sign-up-btn {
+      padding: 10px 20px;
+      background-color: #4CAF50;
+      color: white;
+      font-size: 16px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    
+    .sign-up-btn:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Sign Up Button -->
+  <button class="sign-up-btn" id="signUpBtn">Sign Up</button>
+
+  <script>
+    // JavaScript to handle button click and redirect
+    document.getElementById('signUpBtn').addEventListener('click', function() {
+      window.location.href = 'https://t.me/your_telegram_group_link'; // Replace with your actual Telegram group link
+    });
+  </script>
+
+</body>
+</html>

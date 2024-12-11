@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Workshops | Code-Link-Bit Club</title>
+  <script src="scripts/index.js" defer ></script>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #1e90ff, #6a5acd);
+      color: white;
+      text-align: center;
+    }
+    header {
+      padding: 20px;
+      background: rgba(0, 0, 0, 0.1);
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    header p {
+      margin: 5px 0 20px;
+      font-size: 1rem;
+    }
+    main {
+      padding: 30px 10px;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    .workshop-list {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+    .workshop-item {
+      background: rgba(255, 255, 255, 0.1);
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      text-align: left;
+    }
+    .workshop-item h3 {
+      margin: 0;
+      font-size: 1.5rem;
+    }
+    .workshop-item p {
+      margin: 10px 0;
+      font-size: 1rem;
+      line-height: 1.5;
+    }
+    .workshop-item button {
+      background-color: #007BFF;
+      border: none;
+      color: white;
+      padding: 10px 20px;
+      text-transform: uppercase;
+      border-radius: 5px;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+    .workshop-item button:hover {
+      background-color: #0056b3;
+    }
+
+    /* Highlighted Workshop */
+    .highlighted {
+      background: rgba(255, 215, 0, 0.2); /* Golden tint */
+      border: 2px solid gold;
+      box-shadow: 0 6px 12px rgba(255, 215, 0, 0.4);
+      animation: pulse 2s infinite;
+    }
+    .highlighted h3 {
+      color: gold;
+    }
+    @keyframes pulse {
+      0%, 100% {
+        transform: scale(1);
+      }
+      50% {
+        transform: scale(1.05);
+      }
+    }
+
+    footer {
+      margin-top: 30px;
+      padding: 10px 0;
+      background: rgba(0, 0, 0, 0.2);
+    }
+    footer p {
+      margin: 0;
+      font-size: 0.9rem;
+    }
+    .signup-link{
+        text-decoration: none;
+        color: yellow;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Code-Link-Bit Club</h1>
+    <p>Empowering learners through hands-on workshops!</p>
+  </header>
+  <main>
+    <h2>Join Our Workshops</h2>
+    <div class="workshop-list">
+      <div class="workshop-item highlighted">
+        <h3>🚀 Web Design with HTML & CSS</h3>
+        <p><strong>Starting This Week:</strong> Learn how to design visually stunning web pages with HTML and CSS. Don't miss out!</p>
+        <button> <a  class="signup-link" href="https://t.me/+GICpHcxMKwY1YjM0">Register Now  </a></button>
+      </div>
+      <div class="workshop-item">
+        <h3>Python Basics</h3>
+        <p>Learn the fundamentals of Python programming, perfect for beginners.</p>
+        <button>Join Now</button>
+      </div>
+      <div class="workshop-item">
+        <h3>JavaScript for Interactivity</h3>
+        <p>Add interactivity to your web pages with JavaScript.</p>
+        <button>Join Now</button>
+      </div>
+      <div class="workshop-item">
+        <h3>Version Control with Git</h3>
+        <p>Master version control workflows using Git and GitHub.</p>
+        <button>Join Now</button>
+      </div>
+      <div class="workshop-item">
+        <h3>Node.js Backend Development</h3>
+        <p>Build scalable backend applications with Node.js and Express.js.</p>
+        <button>Join Now</button>
+      </div>
+      <div class="workshop-item">
+        <h3>Database Basics</h3>
+        <p>Understand databases, SQL queries, and relational database concepts.</p>
+        <button>Join Now</button>
+      </div>
+      <div class="workshop-item">
+        <h3>API Development</h3>
+        <p>Build and consume APIs using REST principles.</p>
+        <button>Join Now</button>
+      </div>
+      
+      
+      
+    </div>
+  </main>
+  <footer>
+    <p>© 2024 Code-Link-Bit Club | All Rights Reserved</p>
+  </footer>
+</body>
+</html>
